@@ -9,7 +9,7 @@ print("testcase started")
 driver.maximize_window()
 driver.get("https://www.facebook.com/")
 
-driver.find_element_by_name("email").send_keys("t.k.vishnu2001@gmail.com")
+driver.find_element_by_name("email").send_keys("vishnu@gmail.com")
 time.sleep(2)
 driver.find_element_by_name("pass").send_keys("vishnu01")
 time.sleep(2)
