@@ -11,7 +11,7 @@ driver.get("https://www.facebook.com/")
 
 driver.find_element_by_name("email").send_keys("t.k.vishnu2001@gmail.com")
 time.sleep(2)
-driver.find_element_by_name("pass").send_keys("india@1987")
+driver.find_element_by_name("pass").send_keys("vishnu01")
 time.sleep(2)
 driver.find_element_by_name("login").send_keys(Keys.ENTER)
 
